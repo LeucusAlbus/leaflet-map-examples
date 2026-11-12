@@ -33,6 +33,20 @@
 
     .tooltip-content span:nth-child(even) {
       text-align: right;
+
+
+      /* Mobile adjustments */
+  @media (max-width: 768px) {
+    .tooltip-content {
+      font-size: 20px;
+      column-gap: 20px;
+      line-height: 1.5;
+    }
+
+    .leaflet-tooltip {
+      padding: 10px 12px;
+    }
+  }
     }
 
   </style>
